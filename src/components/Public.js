@@ -7,6 +7,7 @@ const Public = () => {
                 <h1>Welcome to <span className="nowrap">Dan D. Repairs!</span></h1>
             </header>
             <main className="public__main">
+            <Link to="/login" className='link__login'>Employee Login</Link>
                 <p>Located in Beautiful Downtown Foo City, Dan D. Repairs  provides a trained staff ready to meet your tech repair needs.</p>
                 <address className="public__addr">
                     Dan D. Repairs<br />
@@ -18,7 +19,7 @@ const Public = () => {
                 <p>Owner: Dan Davidson</p>
             </main>
             <footer>
-                <Link to="/login">Employee Login</Link>
+                <h3>oeeeeee</h3>
             </footer>
         </section>
 
